@@ -8,4 +8,4 @@ JOIN nilai n ON s.id = n.siswa_id
 GROUP BY s.id, s.nama, s.jurusan
 ORDER BY rata_nilai DESC; 
 
--- perubahan dua
+-- update sql part 2

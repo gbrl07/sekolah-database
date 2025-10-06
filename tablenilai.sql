@@ -5,3 +5,5 @@ CREATE TABLE nilai (
   nilai INT,
   CONSTRAINT fk_nilai_siswa FOREIGN KEY (siswa_id) REFERENCES siswa(id) ON DELETE CASCADE
 );
+
+-- update sql part 2
