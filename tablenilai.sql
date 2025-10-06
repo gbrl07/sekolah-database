@@ -1,0 +1,7 @@
+CREATE TABLE nilai (
+  id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  siswa_id INT NOT NULL,
+  mata_pelajaran VARCHAR(100) NOT NULL,
+  nilai INT,
+  CONSTRAINT fk_nilai_siswa FOREIGN KEY (siswa_id) REFERENCES siswa(id) ON DELETE CASCADE
+);
